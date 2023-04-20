@@ -1,12 +1,16 @@
+package com.knoldus.practice
+package TableOfListElements
+
 import scala.annotation.tailrec
 
-object TableOfListElements extends App {
+class TableOfListElements {
 
-  val myList = List(2, 3, 4, 5, 6)
-  private val listOfTable = myList.map(element => findTable(element))
+  def generateTablesOfElementsOfList(list: List[Int]): List[List[Int]] = {
+    list.map(element => generateTable(element))
+  }
 
   // Function to generate table in a list using tail recursion.
-  def findTable(num: Int): List[Int] = {
+  private def generateTable(num: Int): List[Int] = {
 
     @tailrec
     def helper(count: Int, myList: List[Int]): List[Int] = {
@@ -15,10 +19,5 @@ object TableOfListElements extends App {
     }
 
     helper(1, Nil)
-  }
-
-  // Printing the tables in separate lists
-  listOfTable.foreach {
-    println
   }
 }
