@@ -1,5 +1,4 @@
-package com.knoldus.practice
-package TableOfListElements
+package com.knoldus.practice.TableOfListElements
 
 import scala.annotation.tailrec
 

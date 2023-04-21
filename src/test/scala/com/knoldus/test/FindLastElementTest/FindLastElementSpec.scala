@@ -1,8 +1,6 @@
-package com.knoldus.practice
-package FindLastElementTest
+package com.knoldus.test.FindLastElementTest
 
-import FindLastElementOfListWithIndex.FindLastElement
-
+import com.knoldus.practice.FindLastElementOfListWithIndex.FindLastElement
 import org.scalatest.funsuite.AnyFunSuite
 
 class FindLastElementSpec extends AnyFunSuite {

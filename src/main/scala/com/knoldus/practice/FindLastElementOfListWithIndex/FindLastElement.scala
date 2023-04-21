@@ -1,5 +1,4 @@
-package com.knoldus.practice
-package FindLastElementOfListWithIndex
+package com.knoldus.practice.FindLastElementOfListWithIndex
 
 import scala.annotation.tailrec
 

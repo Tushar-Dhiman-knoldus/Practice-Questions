@@ -1,8 +1,6 @@
-package com.knoldus.practice
-package TableOfListElementTest
+package com.knoldus.test.TableOfListElementTest
 
-import TableOfListElements.TableOfListElements
-
+import com.knoldus.practice.TableOfListElements.TableOfListElements
 import org.scalatest.funsuite.AnyFunSuite
 
 class TableOfListElementSpec extends AnyFunSuite {

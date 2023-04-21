@@ -1,5 +1,4 @@
-package com.knoldus.practice
-package CrudOperationUsingFuture
+package com.knoldus.practice.CrudOperationUsingFuture
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future

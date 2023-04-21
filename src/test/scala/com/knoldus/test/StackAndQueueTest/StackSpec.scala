@@ -1,8 +1,6 @@
-package com.knoldus.practice
-package StackAndQueueTest
+package com.knoldus.test.StackAndQueueTest
 
-import StackAndQueueImplUsingLists.Stack
-
+import com.knoldus.practice.StackAndQueueImpl.Stack
 import org.scalatest.funsuite.AnyFunSuite
 
 class StackSpec extends AnyFunSuite {

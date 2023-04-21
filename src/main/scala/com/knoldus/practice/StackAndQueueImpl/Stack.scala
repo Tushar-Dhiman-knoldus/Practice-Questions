@@ -1,5 +1,4 @@
-package com.knoldus.practice
-package StackAndQueueImplUsingLists
+package com.knoldus.practice.StackAndQueueImpl
 
 class Stack {
 

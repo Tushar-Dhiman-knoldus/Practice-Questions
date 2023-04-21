@@ -1,8 +1,6 @@
-package com.knoldus.practice
-package CrudOperationTest
+package com.knoldus.test.CrudOperationTest
 
-import CrudOperationUsingFuture.CrudOperationCall
-
+import com.knoldus.practice.CrudOperationUsingFuture.CrudOperationCall
 import org.scalatest.funsuite.AnyFunSuite
 
 import scala.concurrent.ExecutionContext.Implicits.global
